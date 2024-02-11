@@ -1,0 +1,7 @@
+Github fork merupakan sebuah fitur untuk menyalin repository milik orang
+lain ke repository milik kita sendiri. Jadi, kita dapat menambahkan fitur
+fitur tambahan tanpa mempengaruhi repository asli milik orang lain. Pull
+request merupakan sebuah request untuk melakukan perubahan dari suatu branch
+pull request ini bisa dilakukan jika kita ingin menyatukan dua branch berbeda
+dari satu repository yang sama, ataupun jika kita ingin mengajukan perubahan
+yang telah dibuat pada fork repository ke repository asli yang telah difork.
