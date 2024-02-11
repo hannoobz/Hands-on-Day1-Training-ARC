@@ -1,0 +1,11 @@
+Merge conflict adalah suatu permasalahan ketika terdapat dua branch yang memiliki 
+perubahan pada file yang sama dengan jumlah commit yang berbeda. Misalnya terdapat 
+branch A dan branch B dibuat berdasarkan dari branch A. Branch A memiliki 3 commit
+dengan commit ke-3 adalah perubahan file dengan nama "file.txt". Kemudian branch B
+dibuat berdasarkan dari branch A ketika branch A masih memiliki 2 commit. Kemudian
+branch B menambahkan 1 commit pada "file.txt". Hal ini akan menimbulkan ketidaksamaan
+atau desynchronization. Hal ini menyebabkan kedua branch tidak dapat dimerge secara
+langsung. Untuk mengatasi hal ini, perlu dilakukan resolve terhadap file yang mengalami
+konflik. Resolve ini dilakukan dengan memilih perubahan dari salah satu branch atau
+menggabungkan kedua perubahan dari dua branch. Setelah diresolve, baru kemudian kedua
+branch dapat di-merge.
