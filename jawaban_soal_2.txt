@@ -1,0 +1,13 @@
+Git rebase merupakan perintah yang digunakan untuk menggabungkan
+dua branch. Berbeda dengan merge yang melakukan penggabungan dengan
+menyatukan ujung branch, git rebase melakukan penggabungan dengan
+mengubah susunan dari commit yang ada di kedua branch. Misalnya ada
+dua branch, yaitu origin dan feat. feat merupakan branch yang dibuat
+berdasarkan origin ketika origin memiliki 3 commit dan feat memiliki 3
+commit tambahan. Setelah feat dibuat dan memiliki 3 commit tambahan,
+ternyata origin juga memiliki 3 commit tambahan. Jika dilakukan merge,
+maka akan seperti menggabungkan ujung commit terakhir dari kedua branch.
+Namun untuk rebase, hal ini seperti membuat susunan sejarah baru dengan
+menggabungkan ujung terakhir commit dari origin dengan commit pertama
+dari feat. Kemudian branch tersebut akan menjadi satu branch. Hal ini akan
+membuat susunan commit lebih clean dan cepat untuk disatukan.
