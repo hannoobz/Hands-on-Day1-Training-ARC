@@ -1,3 +1,6 @@
+M. Hanief Fatkhan Nashrullah
+13522100
+
 Merge conflict adalah suatu permasalahan ketika terdapat dua branch yang memiliki 
 perubahan pada file yang sama dengan jumlah commit yang berbeda. Misalnya terdapat 
 branch A dan branch B dibuat berdasarkan dari branch A. Branch A memiliki 3 commit

@@ -1,3 +1,6 @@
+M. Hanief Fatkhan Nashrullah
+13522100
+
 Git rebase merupakan perintah yang digunakan untuk menggabungkan
 dua branch. Berbeda dengan merge yang melakukan penggabungan dengan
 menyatukan ujung branch, git rebase melakukan penggabungan dengan
